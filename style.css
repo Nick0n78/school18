@@ -1,0 +1,521 @@
+  
+body{
+  background-color: #E4F1FF;
+  color: #27005D; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 220%;
+  font-weight: bold;
+}
+
+.in-news-p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#hp  {  
+  width: 15%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    margin-bottom: 20px;
+    }
+
+    .tx{
+      text-align: center;
+    }
+
+    .all{
+      display: flex;
+    }
+  
+
+
+  .news-bar {
+    
+  
+      right: 0;
+      width: 300px; /* Adjust the width as needed */
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+  }
+  
+  .news-content {
+      padding: 10px;
+  }
+  
+  .news-content p {
+      margin: 0;
+      padding: 5px 0;
+      border-bottom: 1px solid #555;
+  }
+  
+
+    .chor{
+        float: right;
+        width: 300px;
+        height: 250px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .p{
+      font-family: 'Text Me One', sans-serif;
+      font-size: 35%;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+        
+    .kid{
+      width: 90%;
+      border-radius: 5px;
+    }
+
+    .dz{
+        width: 150px;
+        height: 160px;
+    }
+    
+    .buttond{
+        display: flex;
+        background-color: black;
+    }
+    
+    .card{
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+        }
+
+    .card:hover{
+        background-color: rgb(243, 255, 74);
+        box-shadow: 0px 15px 20px rgba(143, 222, 32, 0.995);
+        
+        transform: translateY(-7px);
+    }
+
+    .card1{
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        margin-left: 20px;
+        margin-top: 10px;  
+        font-weight: bold;
+    }
+
+    .card1:hover{
+        background-color: #2349c4;
+        box-shadow: 0px 15px 20px rgba(46, 98, 229, 0.4);
+        
+        transform: translateY(-7px);
+    }
+
+    .container12{
+        flex-direction: flex;
+        display: inline;
+        display: flex;
+    }
+    
+    .teac{
+        background-color: rgb(213, 243, 142);
+        font-size: 20px;
+        width: 160px;
+        border-radius: 30;
+        border: none;
+        margin-left: 20px;
+        flex: 1;  
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Text Me One', sans-serif;
+ }
+
+
+ .hr{
+    width: 170px;
+    height: 210px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ .H{
+    text-align: center;
+    font-family: 'Text Me One', sans-serif;
+
+ }
+
+
+
+
+.bottom {
+  position: relative;
+  width: 100%;
+}
+
+.over {
+  display: flex;
+  flex-direction: column;
+  background-color: #5c5757;
+  border-radius: 20px;
+  margin: 20px auto; /* Center the "over" div horizontally */
+  color: #E4F1FF;
+  max-width: 50%;
+  box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+
+.part1{
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-size: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.part2{
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-size: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.map{
+  height: 550px;
+  width: 95%;
+  border: none;
+  border-radius: 20px;
+  margin-left: 35px;
+  margin-top: 20px;
+  box-align: center;
+}
+
+.more{
+   
+    font: 16px sans-serif;
+    background-color: #9400FF;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    color: #E4F1FF;
+    cursor: pointer;
+    font-family: 'Text Me One', sans-serif;
+}
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;    
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 20px;
+    margin-top: 10px;  
+    font-family: 'Text Me One', sans-serif;
+    font-weight: bold;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Styling for the pop-up box */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+  .dropbtn:hover{
+    background-color: #2349c4;
+    box-shadow: 0px 15px 20px rgba(46, 98, 229, 0.4);
+    
+    transform: translateY(-7px);
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Text Me One', sans-serif;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Text Me One', sans-serif;
+  }
+  
+  .main{
+    display: flex;
+  }
+
+#sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+
+
+    /* Media query for screens with a maximum width of, for example, 768px */
+
+
+a{
+  font-family: 'Text Me One', sans-serif;
+  text-align: center;
+}
+
+
+
+
+  .main-ch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pho{
+  margin-right: 20px;
+}
+
+.news{
+  display: flex;
+  align-content: center;
+  margin-top: 15px;
+  margin-left: 5px ;
+  margin-right: 5px;
+  top: 5%;
+
+}
+
+.in-news{
+  background-color: #E1AA74;
+  color: #333;
+  font-weight: bold;
+  font-size: medium;
+  padding: 3%;
+  margin: 10px;
+  font-family: 'Text Me One', sans-serif;
+}
+
+.chornovil{
+width: 50%;
+height: 50%;
+border-radius: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.wrapper header{
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+header .icons{
+  display: flex;
+}
+header .icons span{
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+.icons span:last-child{
+  margin-right: -10px;
+}
+header .icons span:hover{
+  background: #f2f2f2;
+}
+header .current-date{
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.calendar{
+  padding: 20px;
+}
+.calendar ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+.calendar .days{
+  margin-bottom: 20px;
+}
+.calendar li{
+  color: #333;
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+}
+.calendar .weeks li{
+  font-weight: 500;
+  cursor: default;
+}
+.calendar .days li{
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+.days li.inactive{
+  color: #aaa;
+}
+.days li.active{
+  color: #fff;
+}
+.days li::before{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days li.active::before{
+  background: #9B59B6;
+}
+.days li:not(.active):hover::before{
+  background: #f2f2f2;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .news{
+    display: block;
+  }
+}
